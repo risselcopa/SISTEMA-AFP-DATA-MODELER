@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C49422A8-EC2B-7AA4-C486-1B7AE6022BB2" containerWithKeyObject="4B48787C-BC8C-DA46-9156-3131A0746977" localFKIndex="4B217AC5-18E4-185F-4D64-C59F20187580" name="TRABAJADOR_AFILIADO_AFP_FK">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>4336DC27-23D6-B6F4-477C-E8138636719F</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<referredTableLongName>AFP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E58B6EF3-9322-301A-844E-912E42304E93</referredTableID>
+<keyObject>F681F850-2963-9D63-0F25-63F9FD3CE645</keyObject>
+<referredKeyID>F681F850-2963-9D63-0F25-63F9FD3CE645</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NUMERO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

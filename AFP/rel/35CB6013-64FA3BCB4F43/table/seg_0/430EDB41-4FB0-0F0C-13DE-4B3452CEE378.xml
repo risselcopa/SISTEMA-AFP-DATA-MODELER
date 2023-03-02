@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="430EDB41-4FB0-0F0C-13DE-4B3452CEE378" name="VERIFICACION">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>EE0C1537-4CFD-3A26-AF9C-426EB8AC2A1F</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO" id="2E59098C-7808-3EBC-4993-CB3F3B4018A8">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>F42FB969-FAB5-3FC1-E857-88CA6BF65DF1</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVESTIGACION_REALIZADA" id="71D89446-2816-9772-74D7-5EA40C185407">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>9D0C05D8-86D8-2591-9C94-7A3A54B7DDCD</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIAGNOSTICO_DEFINIDO" id="256DED56-682C-51CF-BD36-F328BEBD7E92">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>060B60FA-C788-9DF1-2F05-02F8384F19DF</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONDUCTA" id="B590CB2B-3033-B400-9B34-73C8BCFD9A51">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>197C4AAB-1229-C3DF-5F89-9B67F322A7B8</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LUGAR" id="868197DD-9754-64A2-441B-9F84B4B2E3E7">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>6882D107-6301-CB43-A813-368D397F3CEC</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="E7E75FD2-7BA4-FCF8-4CED-8E3F407C0E9A">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>C16F961F-06D7-6EBD-E647-AA19FE47CCBF</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F194CB9E-310F-6A38-565B-A5EF5B719F48" name="VERIFICACION_PK">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>C111DE9F-4125-A553-9431-C4C2343FCAB2</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E59098C-7808-3EBC-4993-CB3F3B4018A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

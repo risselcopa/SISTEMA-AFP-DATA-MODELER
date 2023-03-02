@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A71349DB-DB55-15C6-46C5-8FB7D7387C1F" name="DIRECCION_IDENTIFICACION">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:52:13 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CI" id="895F3A31-8BDE-E512-2DF1-A9C09AF27407">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:57:19 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUN" id="1B434A8F-6086-586A-0C73-E84D525C86DC">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:57:38 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PASI" id="067D7E8A-BC76-BBC4-BCFE-156E0BCB27AC">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:57:57 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEXO" id="54B9204E-69FA-9B37-AF55-C02352572591">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:58:23 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_NACIMIENTO" id="FF8B3793-89FF-B99A-6CE7-68E89377B822">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:59:15 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO_CIVIL" id="716E8921-568F-4379-27B6-18E6E256EA3B">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:59:52 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEPARTAMENTO" id="45505A99-ECC4-B3EC-9FF8-FE36FC8FB986">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:52:41 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROVINCIA" id="0E24EB02-B4EC-543A-6B86-2DCED5421003">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:53:34 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOCALIDAD" id="1EB51D0C-782C-AEAD-916C-5EF0574AEDF7">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:54:00 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BARRIO" id="7B22CDAA-B5EA-B26D-F944-ED7EF5DD4F88">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:54:29 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="9AC5B61B-4379-F9AC-CA16-A5A8F10561BA">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:54:49 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DOMICILIO_ACTUAL" id="7DB82E4E-BC43-CC45-22A3-E063150816F1">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:55:23 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B8840CD-BD77-44E5-8B74-B27934CE545E" name="DIRECCION_IDENTIFICACION PK">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:52:47 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>895F3A31-8BDE-E512-2DF1-A9C09AF27407</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

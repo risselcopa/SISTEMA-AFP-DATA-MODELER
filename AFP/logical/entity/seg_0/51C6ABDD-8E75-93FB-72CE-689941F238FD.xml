@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51C6ABDD-8E75-93FB-72CE-689941F238FD" name="AREA_TRABAJO">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 15:08:55 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD" id="952AF405-3CD5-14D4-EF48-2CFA46D619BE">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 15:09:20 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VIDA_LABORAL" id="366DABEE-5352-E79D-5685-2C37BEDF59E3">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 15:09:47 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="01A34FCF-0ADE-9D7F-60C7-6E326218BA28" name="AREA_TRABAJO PK">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 15:09:50 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>952AF405-3CD5-14D4-EF48-2CFA46D619BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

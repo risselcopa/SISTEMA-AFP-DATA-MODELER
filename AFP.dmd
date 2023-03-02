@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AFP" id="E9405778-07C0-0987-2A62-FDDFC7C3396B" version="3.5">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:37:59 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E9405778-07C0-0987-2A62-FDDFC7C3396B</designId>
+</OSDM_Design>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E58B6EF3-9322-301A-844E-912E42304E93" name="AFP">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>0AEC065F-7D06-ED0A-279C-4503C6C9376A</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO" id="35A8FFC9-ACB4-8389-C10B-D9044069D3E5">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>6A47D4B4-50C2-7070-7135-61BD5FE4BC49</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LUGAR" id="80DB525C-833E-11DD-5831-495915DF53BA">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>CCA409E8-6FCB-64A3-38AD-C5442F629A66</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="A619BBA3-4EEB-76E8-E1AF-FF05B0203F31">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>B60089CC-8D87-0B2B-660D-81BB211DE272</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECEPCION" id="C81A6D25-4182-DF50-FD0A-D5F98E0E8361">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>C80DB59A-4A41-4FA9-EB25-A441A2292C7D</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_RESPOPNSABLE" id="CF3579BF-A3C6-1B36-8145-A4ABEC46C0F0">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>2BAC764C-17C6-A7E9-A797-9CF2C000D3C9</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F681F850-2963-9D63-0F25-63F9FD3CE645" name="AFP_PK">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>F7EE98E7-02EC-2F67-FC33-49EE1B15058B</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35A8FFC9-ACB4-8389-C10B-D9044069D3E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

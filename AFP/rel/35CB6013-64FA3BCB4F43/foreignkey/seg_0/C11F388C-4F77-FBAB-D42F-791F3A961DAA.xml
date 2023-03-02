@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C11F388C-4F77-FBAB-D42F-791F3A961DAA" containerWithKeyObject="CB0858F3-49F0-42DF-BFD5-D779949B0769" localFKIndex="4FABB4CC-3B91-03E6-F177-EEA315FE2313" name="EXAMEN_CLINICO_VERIFICACION_FK">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>A9DFB63A-D734-226F-72B5-C54CFC69996F</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<referredTableLongName>VERIFICACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>430EDB41-4FB0-0F0C-13DE-4B3452CEE378</referredTableID>
+<keyObject>F194CB9E-310F-6A38-565B-A5EF5B719F48</keyObject>
+<referredKeyID>F194CB9E-310F-6A38-565B-A5EF5B719F48</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NUMERO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

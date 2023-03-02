@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B977516-C736-429C-D96F-49733A678366" name="AREA_TRABAJOv1">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 15:11:16 UTC</createdTime>
+<generatorID>51C6ABDD-8E75-93FB-72CE-689941F238FD</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD" id="A2EC7520-0AF2-6C9D-322E-CED0608C37D0">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 15:11:16 UTC</createdTime>
+<generatorID>952AF405-3CD5-14D4-EF48-2CFA46D619BE</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIDA_LABORAL" id="3EC5D09F-A76B-D67D-D899-A298F0A8B9A4">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 15:11:16 UTC</createdTime>
+<generatorID>366DABEE-5352-E79D-5685-2C37BEDF59E3</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF7DBDC9-E7C2-F79E-960E-27A794AA8611" name="AREA_TRABAJOv1_PK">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 15:11:16 UTC</createdTime>
+<generatorID>01A34FCF-0ADE-9D7F-60C7-6E326218BA28</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2EC7520-0AF2-6C9D-322E-CED0608C37D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F298448-AFC4-7F9C-121A-DF15DB6284D0" name="TRABAJADOR_AFILIADO">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:39:18 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CUA" id="5EC4FFE1-A890-6CDE-BF2A-CFD4E6F655AB">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:40:39 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="BB4E4339-D7CB-DAA5-76AD-32B60E8BC8C4">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:41:43 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APE_PATERNO" id="C50BB90C-70EC-366E-66E4-EEFADBA7736E">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:43:22 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APE_MATERNO" id="3CD5EB9C-9863-ECF2-33EF-1D5468F45603">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:42:15 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APE_CASADA" id="85D820FD-0E56-80BD-6B17-935828AF583A">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:43:57 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO1" id="2EB9E8D6-8941-C262-CF20-0718CDA0E7A9">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:43:40 UTC</createdTime>
+<generatorID>4336DC27-23D6-B6F4-477C-E8138636719F</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<referedAttribute>6A47D4B4-50C2-7070-7135-61BD5FE4BC49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIT_PERTENECIENTE2" id="0F750BB4-118E-6C46-3252-5E6934D56CA4">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:45:28 UTC</createdTime>
+<generatorID>919FCEDA-20AC-5CE6-9A70-A519B2E552E2</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<referedAttribute>2AD814E3-CA46-E269-D067-0B62DA53337E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CI1" id="A5CFD31D-65F8-AF4F-D757-57CDE7A70619">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:46:08 UTC</createdTime>
+<generatorID>0F496D59-F1FF-7042-DA54-66576F8715D0</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="true"/>
+</engineerTo>
+<referedAttribute>895F3A31-8BDE-E512-2DF1-A9C09AF27407</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D56FEC23-78B5-C410-98EB-8F1759C24F23" name="CONTROL_ENFERMEDAD PK">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 13:41:42 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="35CB6013-23D0-6EC6-FADF-64FA3BCB4F43" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5EC4FFE1-A890-6CDE-BF2A-CFD4E6F655AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

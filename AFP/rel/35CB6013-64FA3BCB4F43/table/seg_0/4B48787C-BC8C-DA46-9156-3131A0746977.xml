@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B48787C-BC8C-DA46-9156-3131A0746977" name="TRABAJADOR_AFILIADO">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>8F298448-AFC4-7F9C-121A-DF15DB6284D0</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUA" id="311A27ED-6390-6088-F7A6-C0BE3218792C">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>5EC4FFE1-A890-6CDE-BF2A-CFD4E6F655AB</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="02BE2A95-DAE3-24DB-CDC1-BE9B3FD783B3">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>BB4E4339-D7CB-DAA5-76AD-32B60E8BC8C4</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APE_PATERNO" id="F2FE71C1-B362-3A2D-E090-443358D8E326">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>C50BB90C-70EC-366E-66E4-EEFADBA7736E</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APE_MATERNO" id="BB233D85-D466-66FC-20A8-839CA109E089">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>3CD5EB9C-9863-ECF2-33EF-1D5468F45603</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APE_CASADA" id="3A3256FD-74D4-022F-D8EC-CE459D41F0F9">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>85D820FD-0E56-80BD-6B17-935828AF583A</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AFP_NUMERO" id="E4B04A59-6E02-0019-B11C-44017A56FB2D">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>2EB9E8D6-8941-C262-CF20-0718CDA0E7A9</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C49422A8-EC2B-7AA4-C486-1B7AE6022BB2" referredColumn="35A8FFC9-ACB4-8389-C10B-D9044069D3E5"/>
+</associations>
+</Column>
+<Column name="INFORMACION_LABORAL_NIT_PERTENECIENTE" id="73A0708D-8425-288B-80C2-8DCF23F173EF">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>0F750BB4-118E-6C46-3252-5E6934D56CA4</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04BCF035-4BE7-5291-34A4-03F54B5FB921" referredColumn="09393A7B-196F-2980-C244-45485E6D41E8"/>
+</associations>
+</Column>
+<Column name="DIRECCION_IDENTIFICACION_CI" id="237743F3-B053-6232-5A41-F673221D9729">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>A5CFD31D-65F8-AF4F-D757-57CDE7A70619</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CBFA588-344E-950C-B0CF-662B0BCC91F5" referredColumn="8AA1BDC3-8496-1259-DEA1-28F9878C712F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E13E5FBE-C1C5-55B2-095E-234308F6A85E" name="TRABAJADOR_AFILIADO_PK">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>D56FEC23-78B5-C410-98EB-8F1759C24F23</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="311A27ED-6390-6088-F7A6-C0BE3218792C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B217AC5-18E4-185F-4D64-C59F20187580" name="TRABAJADOR_AFILIADO_AFP_FK">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>4336DC27-23D6-B6F4-477C-E8138636719F</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4B04A59-6E02-0019-B11C-44017A56FB2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22CB564A-16FE-0536-0EE1-37127BA9F634" name="TRABAJADOR_AFILIADO_INFORMACION_LABORAL_FK">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>919FCEDA-20AC-5CE6-9A70-A519B2E552E2</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73A0708D-8425-288B-80C2-8DCF23F173EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE481C1E-0A98-F9A3-83C9-1EB27507A469" name="TRABAJADOR_AFILIADO_DIRECCION_IDENTIFICACION_FK">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 14:52:55 UTC</createdTime>
+<generatorID>0F496D59-F1FF-7042-DA54-66576F8715D0</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="237743F3-B053-6232-5A41-F673221D9729"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

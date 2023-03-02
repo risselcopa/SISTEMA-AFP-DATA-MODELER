@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B686BC2-80F7-6A97-155D-27A66A934194" name="Relation_6">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 15:05:34 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRABAJADOR_AFILIADO_CUA" id="27CC2B55-6C58-3676-5B9B-FDE80DC6FAF1">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 15:05:34 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32CC5F63-C9A7-26E1-CEB6-30A4FCC98C20" referredColumn="311A27ED-6390-6088-F7A6-C0BE3218792C"/>
+</associations>
+</Column>
+<Column name="EXAMEN_CLINICO_FECHA" id="71E7A594-43FF-A70C-9ED8-500C0B01F0E9">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 15:05:34 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E59CF178-F437-E420-3F59-8247752C9776" referredColumn="A60C11E2-1FA6-0B41-2396-907C7578BDC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F348878D-B7AA-5C1C-019A-2D68AFEED33A" name="Relation_6_PK">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 15:05:34 UTC</createdTime>
+<ownerDesignName>AFP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27CC2B55-6C58-3676-5B9B-FDE80DC6FAF1"/>
+<colUsage columnID="71E7A594-43FF-A70C-9ED8-500C0B01F0E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C0C3676-28BD-8DA7-1675-1AE64660BE01" name="Relation_6_TRABAJADOR_AFILIADO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 15:05:34 UTC</createdTime>
+<generatorID>5B596BE3-1AC6-394A-0208-258236CB29BD</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27CC2B55-6C58-3676-5B9B-FDE80DC6FAF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A98E292-A078-D74F-9A82-AB7455784E6D" name="Relation_6_EXAMEN_CLINICO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2022-12-08 15:05:34 UTC</createdTime>
+<generatorID>5B596BE3-1AC6-394A-0208-258236CB29BD</generatorID>
+<ownerDesignName>AFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71E7A594-43FF-A70C-9ED8-500C0B01F0E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
